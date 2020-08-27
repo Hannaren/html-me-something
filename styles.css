@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url(Montserrat/Montserrat-Medium.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'montserrat light';
+    src: url(Montserrat/Montserrat-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'marker';
+    src: url(Permanent_Marker/PermanentMarker-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+body {
+    background-color: rgb(138, 207, 236);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'montserrat';
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h5 {
+    font-family: 'montserrat';
+    text-align: center;
+}
+
+p {
+    font-family: 'montserrat light';
+    text-align: center;
+    margin top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+img {
+    text-align: center;
+}
+
+.header-img-container {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+}
+
+#main-img-container {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px solid white;
+}
+
+#credits {
+    font-family: 'montserrat';
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+}
+
+.polaroid figure {
+    background: #ffffff;
+    display: inline-block;
+    margin: 0px 75px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    font-family: 'marker';
+    z-index: 0;
+    position: relative;
+}
+
+.polaroid figure:after {
+    color: #333;
+    font-size: 40px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+}
+
+.polaroid img {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+.column {
+    float: right;
+    width: 50%;
+    padding: 5px;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+.caption {
+    background-color:rgb(192, 233, 251);
+    padding: 5px 5px 5px;
+    border: 5px double white;
+}
